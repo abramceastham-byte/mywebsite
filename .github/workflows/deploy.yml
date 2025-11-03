@@ -15,7 +15,7 @@ permissions:
 
 jobs:
   deploy:
-    run-on: ubuntu-latest # Use ubuntu VM 
+    runs-on: ubuntu-latest # Use ubuntu VM 
 
     steps:
       # Get a copy of the repositories code
